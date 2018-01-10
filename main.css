@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+  line-height: 1;
+  text-align: center;
+  background: repeat center url(https://i.redd.it/2i81btl9y96y.jpg); 
+}
+
+.quizStart {
+  background-color: #fff;
+  max-width: 600px;
+}
+
+.quizEnd {
+  background-color: #fff;
+  max-width: 600px;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 36px;
+  padding:  30px 0;
+}
+
+.quizStart h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 25px;
+}
+
+.quizEnd h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 25px;
+}
+
+.centered {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  width: 87%;
+  border-bottom: 2px solid #4A4A4A;
+  margin: 0 auto; 
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #4A4A4A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 20px;
+  margin: 0;
+  color: #fff;
+}
+
+.quiz-background {
+  background: #fff;
+  min-height: 400px;
+}
+
+.quiz h3 {
+  margin: 10px;
+  padding-top:  5px;
+  color: #fff;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  margin: 0;
+}
+
+.quiz-header {
+  height: 110px;
+  width: 100%;
+  background: #171916;
+  margin-top: 30px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.quiz-questions {
+  padding-top: 50px;
+  background: #fff;
+}
+
+.quiz-questions p {
+  text-align: left;
+  padding-top: 10px;
+  line-height: 1.5;  
+  padding-left: 20%;
+}
+
+.quiz-questions legend {
+  line-height: 1.5;
+}
+
+.quizFeedback {
+  max-width: 500px; 
+  margin: 0 auto;
+  background: #fff;
+}
+
+.quizFeedback p {
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.score {
+  height: 35px;
+  background-color: #DCDCDC;
+  padding-top: 5px;
+}
+
+legend {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.25;
+} 
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  max-width: 400px;
+}
+
+label {
+  padding-left: 5px;
+}
+
+.incorrect {
+  color: #D0021B;
+  font-size: 22px;
+
+}
+
+.correct {
+  color: #42B23C;
+  font-size: 22px;
+}
+
+.submit-btn {
+  background-color: #D8D8D8;
+  color: #4A4A4A;
+  font-size: 17px;
+  margin-top: 15px;
+/*  text-align: center; */
+}
+
+#error {
+  color: #D0021B;
+}
+
