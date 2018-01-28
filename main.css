@@ -114,7 +114,6 @@ form {
 .quiz-questions p {
   text-align: left;
   padding-top: 10px;
-  line-height: 1.5;  
   padding-left: 20%;
 }
 
@@ -177,7 +176,11 @@ label {
 /*  text-align: center; */
 }
 
-#error {
+#error p {
   color: #D0021B;
+  font-size: 22px;
+  margin-bottom:  5px;
+  padding-left:  13%;
+  font-weight: 500;
 }
 
