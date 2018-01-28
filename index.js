@@ -59,8 +59,8 @@ function renderQuizForm() {
         <div class="quizFeedback section"></div>   
         <form role="form" class="quiz-questions section" method="get">            
           <fieldset>
-            <span id="error"></span>
             <legend>${state.questions[state.questionNumber].question}</legend>
+              <span id="error"></span>
               <p>
                 <input type="radio" name="answers" value="${state.questions[state.questionNumber].option1}" id="option1">
                 <label for="option1">${state.questions[state.questionNumber].option1}</label>
